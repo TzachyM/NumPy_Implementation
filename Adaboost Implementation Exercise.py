@@ -52,7 +52,7 @@ if __name__ == '__main__':
     model = AdaBoost()
     model.fit(x_train,y_train)
     print(model.predict(x_test))
-    print("my ada", model.score(x_test,y_test))
+    print("my AdaBoost", model.score(x_test,y_test))
   
     mode = AdaBoostClassifier()  
     mode.fit(x_train,y_train)
